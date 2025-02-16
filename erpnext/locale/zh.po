@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: frappe\n"
+"Project-Id-Version: frappe_custom\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2025-02-09 09:34+0000\n"
-"PO-Revision-Date: 2025-02-13 22:42\n"
+"PO-Revision-Date: 2025-02-16 06:07\n"
 "Last-Translator: info@erpnext.com\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: frappe\n"
-"X-Crowdin-Project-ID: 639578\n"
+"X-Crowdin-Project: frappe_custom\n"
+"X-Crowdin-Project-ID: 763587\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /[frappe.erpnext] develop/erpnext/locale/main.pot\n"
-"X-Crowdin-File-ID: 46\n"
+"X-Crowdin-File: /[ssqzr.erpnext] develop/erpnext/locale/main.pot\n"
+"X-Crowdin-File-ID: 16\n"
 "Language: zh_CN\n"
 
 #. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
@@ -389,7 +389,7 @@ msgstr "0 - 30 天"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:114
 msgid "0-30"
-msgstr "0-30"
+msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "0-30 Days"
@@ -413,7 +413,7 @@ msgstr "1小时"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "1-10"
-msgstr "1-10"
+msgstr ""
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -422,7 +422,7 @@ msgstr "1-10"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "1000+"
-msgstr "1000+"
+msgstr ""
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -431,12 +431,12 @@ msgstr "1000+"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "11-50"
-msgstr "11-50"
+msgstr ""
 
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.py:95
 #: erpnext/regional/report/uae_vat_201/uae_vat_201.py:101
 msgid "1{0}"
-msgstr "1{0}"
+msgstr ""
 
 #. Option for the 'Periodicity' (Select) field in DocType 'Asset Maintenance
 #. Task'
@@ -451,7 +451,7 @@ msgstr "每年 2 次"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "201-500"
-msgstr "201-500"
+msgstr ""
 
 #. Option for the 'Periodicity' (Select) field in DocType 'Asset Maintenance
 #. Task'
@@ -471,7 +471,7 @@ msgstr "30 分钟"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:115
 msgid "30-60"
-msgstr "30-60"
+msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "30-60 Days"
@@ -484,7 +484,7 @@ msgstr "30-60 天"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "501-1000"
-msgstr "501-1000"
+msgstr ""
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -493,7 +493,7 @@ msgstr "501-1000"
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "51-200"
-msgstr "51-200"
+msgstr ""
 
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
@@ -507,7 +507,7 @@ msgstr "60 - 90 天"
 
 #: erpnext/accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:116
 msgid "60-90"
-msgstr "60-90"
+msgstr ""
 
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:110
 msgid "60-90 Days"
@@ -580,7 +580,7 @@ msgstr "<div class=\"text-muted text-center\">未找到匹配的银行交易</di
 
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:262
 msgid "<div class=\"text-muted text-center\">{0}</div>"
-msgstr "<div class=\"text-muted text-center\">{0}</div>"
+msgstr ""
 
 #. Content of the 'settings' (HTML) field in DocType 'Cheque Print Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
@@ -927,13 +927,13 @@ msgstr "<table class=\"table table-bordered table-condensed\">\n"
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:213
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:116
 msgid "A - B"
-msgstr "A - B"
+msgstr ""
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:189
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:228
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:131
 msgid "A - C"
-msgstr "A - C"
+msgstr ""
 
 #: erpnext/selling/doctype/customer/customer.py:310
 msgid "A Customer Group exists with same name please change the Customer name or rename the Customer Group"
@@ -1005,34 +1005,34 @@ msgstr "第三方分销商、经销商、佣金代理商、关联公司及转售
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "A+"
-msgstr "A+"
+msgstr ""
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "A-"
-msgstr "A-"
+msgstr ""
 
 #. Option for the 'Cheque Size' (Select) field in DocType 'Cheque Print
 #. Template'
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 msgid "A4"
-msgstr "A4"
+msgstr ""
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "AB+"
-msgstr "AB+"
+msgstr ""
 
 #. Option for the 'Blood Group' (Select) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "AB-"
-msgstr "AB-"
+msgstr ""
 
 #. Option for the 'Invoice Series' (Select) field in DocType 'Import Supplier
 #. Invoice'
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
 msgid "ACC-PINV-.YYYY.-"
-msgstr "ACC-PINV-.YYYY.-"
+msgstr ""
 
 #. Label of the amc_expiry_date (Date) field in DocType 'Serial No'
 #. Label of the amc_expiry_date (Date) field in DocType 'Warranty Claim'
@@ -1046,7 +1046,7 @@ msgstr "年底维保合同到期日"
 #. Label of the api_sb (Section Break) field in DocType 'Support Search Source'
 #: erpnext/support/doctype/support_search_source/support_search_source.json
 msgid "API"
-msgstr "API"
+msgstr ""
 
 #. Label of the api_details_section (Section Break) field in DocType 'Currency
 #. Exchange Settings'
