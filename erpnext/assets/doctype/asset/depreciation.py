@@ -425,7 +425,7 @@ def create_journal_entry_for_scrap(asset, scrap_date):
 	je.naming_series = depreciation_series
 	je.posting_date = scrap_date
 	je.company = asset.company
-	je.remark = f"Scrap Entry for asset {asset.name}"
+	je.remark = _("Scrap Entry for asset {0}").format(asset.name)
 
 	for entry in get_gl_entries_on_asset_disposal(asset, scrap_date):
 		entry.update({"reference_type": "Asset", "reference_name": asset.name})
